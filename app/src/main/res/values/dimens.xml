@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="radius_small">12dp</dimen>
+    <dimen name="radius_medium">20dp</dimen>
+    <dimen name="radius_large">28dp</dimen>
+
+    <dimen name="chat_padding">16dp</dimen>
+    <dimen name="toolbar_height">72dp</dimen>
+
+    <dimen name="message_margin">8dp</dimen>
+
+    <dimen name="input_height">60dp</dimen>
+
+    <dimen name="send_button_size">56dp</dimen>
+
+    <dimen name="mic_button_size">52dp</dimen>
+
+</resources>

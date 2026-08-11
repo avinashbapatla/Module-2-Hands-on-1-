@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Palette -->
+    <color name="primary">#6C63FF</color>
+    <color name="primary_dark">#5A52E0</color>
+    <color name="primary_light">#9D7BFF</color>
+
+    <!-- Cosmic Background -->
+    <color name="background">#050816</color>
+    <color name="surface">#111827</color>
+
+    <!-- Nebula Colors -->
+    <color name="nebula_purple">#7B5CFF</color>
+    <color name="nebula_blue">#4F8CFF</color>
+    <color name="aurora">#53C5FF</color>
+
+    <!-- Glow -->
+    <color name="glow">#8B7BFF</color>
+
+    <!-- Chat -->
+    <color name="botBubble">#1A2238</color>
+    <color name="userBubble">#6C63FF</color>
+
+    <!-- Text -->
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#B8C1EC</color>
+
+    <!-- Online -->
+    <color name="onlineGreen">#00E676</color>
+
+    <!-- Input -->
+    <color name="inputBackground">#1A2238</color>
+
+    <!-- Ripple -->
+    <color name="rippleColor">#40FFFFFF</color>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nova AI</string>
+    <string name="toolbar_title">Nova AI Assistant</string>
+    <string name="toolbar_subtitle">Online</string>
+    <string name="hint_message">Ask anything...</string>
+    <string name="welcome_title">Nova AI Assistant</string>
+    <string name="welcome_subtitle">Your Intelligent Conversational Assistant</string>
+    <string name="welcome_message">✨ Ask me anything</string>
+    <string name="suggestion_ai">💡 Explain Artificial Intelligence</string>
+    <string name="suggestion_code">💻 Solve Programming Problems</string>
+    <string name="suggestion_learn">📚 Help Me Learn New Concepts</string>
+    <string name="suggestion_ideas">🚀 Generate Creative Ideas</string>
+</resources>

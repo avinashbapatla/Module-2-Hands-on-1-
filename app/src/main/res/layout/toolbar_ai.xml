@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+
+    android:layout_margin="12dp"
+
+    app:cardBackgroundColor="#18FFFFFF"
+    app:cardCornerRadius="22dp"
+    app:cardElevation="8dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#33FFFFFF">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal"
+
+        android:gravity="center_vertical"
+
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp">
+
+        <ImageView
+            android:id="@+id/imgAI"
+
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+
+            android:src="@drawable/ic_ai_logo"
+
+            android:tint="@color/primary"/>
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:orientation="vertical"
+
+            android:layout_marginStart="16dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Nova AI"
+
+                android:textColor="@color/textPrimary"
+
+                android:textSize="20sp"
+
+                android:textStyle="bold"/>
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+
+                android:gravity="center_vertical">
+
+                <View
+
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+
+                    android:background="@drawable/bg_online_indicator"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text=" Online"
+
+                    android:textColor="@color/textSecondary"
+
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageButton
+
+            android:id="@+id/btnSettings"
+
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+
+            android:background="?attr/selectableItemBackgroundBorderless"
+
+            android:src="@drawable/ic_settings"
+
+            android:tint="@color/textPrimary"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
